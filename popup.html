@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    :root { --primary: #6200ee; --bg: #121212; --card: #1e1e1e; --text: #e1e1e1; }
+    body { width: 260px; font-family: 'Segoe UI', sans-serif; padding: 20px; background: var(--bg); color: var(--text); margin: 0; }
+    h3 { margin-top: 0; color: var(--primary); font-size: 1.2rem; text-align: center; }
+    .timer-display { font-size: 42px; font-weight: bold; margin: 15px 0; text-align: center; color: #fff; text-shadow: 0 0 10px rgba(98,0,238,0.5); }
+    .controls { display: flex; justify-content: center; gap: 8px; margin-bottom: 20px; }
+    button { cursor: pointer; border-radius: 8px; border: none; padding: 8px 12px; font-weight: bold; transition: 0.2s; }
+    .btn-time { background: #333; color: white; }
+    .btn-time:hover { background: #444; }
+    #startBtn { width: 100%; padding: 12px; background: var(--primary); color: white; font-size: 14px; box-shadow: 0 4px 10px rgba(98,0,238,0.3); }
+    #startBtn:disabled { background: #333; box-shadow: none; opacity: 0.6; }
+    input, textarea { width: 100%; box-sizing: border-box; background: #252525; border: 1px solid #333; color: white; padding: 10px; border-radius: 6px; margin-top: 8px; }
+    label { font-size: 11px; color: #888; display: block; margin-top: 12px; text-transform: uppercase; letter-spacing: 1px; }
+    .stats { margin-top: 20px; padding-top: 15px; border-top: 1px solid #333; font-size: 12px; text-align: center; color: #888; }
+    #totalSessions { color: var(--primary); font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h3>Anti-Procrastination ☕</h3>
+  <div class="timer-display" id="timeLeft">00:00</div>
+  
+  <div class="controls">
+    <button class="btn-time" id="add1">+1m</button>
+    <button class="btn-time" id="add5">+5m</button>
+    <button class="btn-time" id="reset" style="background:#d32f2f">✕</button>
+  </div>
+
+  <label>🚫 Bloquear (ej: youtube, tiktok):</label>
+  <textarea id="blacklist" placeholder="youtube, twitter" rows="2"></textarea>
+
+  <label>🎁 Recompensa:</label>
+  <input type="text" id="userUrl" placeholder="https://youtube.com/...">
+
+  <button id="startBtn">ACTIVAR ENFOQUE</button>
+
+  <div class="stats">
+    Sesiones completadas hoy: <span id="totalSessions">0</span>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
