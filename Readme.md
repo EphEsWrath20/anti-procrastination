@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="RUTA_DE_TU_LOGO_AQUI.png" width="120" height="120" alt="Anti-Procrastination Logo">
+<img src="logo.png" width="120" height="120" alt="Anti-Procrastination Logo">
 
 # Anti-Procrastination Extension
 
