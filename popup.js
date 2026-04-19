@@ -43,7 +43,7 @@ function restoreTimer() {
   });
 }
 
-// 3. El contador visual (el que ves moverse)
+// 3. El contador visual (el que se mueve)
 function startTimerVisual(seconds) {
   clearInterval(countdownInterval);
   let timeLeft = seconds;
