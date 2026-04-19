@@ -25,9 +25,9 @@ The goal of this tool is to help users establish **Deep Work** periods. During t
 <div align="center">
   <table border="0">
     <tr>
-      <td><img src="screenshots/screenshot1.jpg" width="250"></td>
-      <td><img src="screenshots/screenshot2.jpg" width="250"></td>
-      <td><img src="screenshots/screenshot3.jpg" width="250"></td>
+      <td><img src="screenshots/screenshot1.jpeg" width="250"></td>
+      <td><img src="screenshots/screenshot2.jpeg" width="250"></td>
+      <td><img src="screenshots/screenshot3.jpeg" width="250"></td>
     </tr>
     <tr>
       <td align="center"><b>Main Timer</b></td>
