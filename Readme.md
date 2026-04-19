@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="logo.png" width="120" height="120" alt="Anti-Procrastination Logo">
+<img src="assets/logo.png" width="120" height="120" alt="Anti-Procrastination Logo">
 
 # Anti-Procrastination Extension
 
@@ -21,20 +21,32 @@ The goal of this tool is to help users establish **Deep Work** periods. During t
 * **DOM Substitution:** If a blocked site is accessed, the content script stops the page load and replaces the body with a "Study Mode" warning.
 * **Reward System:** Once the session ends, the extension automatically opens a predefined URL (e.g., a music video or news portal).
 
-## 📸 Screenshots
 <div align="center">
-  <table border="0">
-    <tr>
-      <td><img src="screenshots/screenshot1.jpeg" width="250"></td>
-      <td><img src="screenshots/screenshot2.jpeg" width="250"></td>
-      <td><img src="screenshots/screenshot3.jpeg" width="250"></td>
-    </tr>
-    <tr>
-      <td align="center"><b>Main Timer</b></td>
-      <td align="center"><b>Blocked Site View</b></td>
-      <td align="center"><b>Configuration</b></td>
-    </tr>
-  </table>
+
+## 📸 Screenshots
+
+<table border="0">
+  <tr>
+    <td align="center"><img src="screenshots/screenshot1.jpeg" width="280"></td>
+    <td align="center"><img src="screenshots/screenshot2.jpeg" width="280"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Main Timer</b></td>
+    <td align="center"><b>Timer Running</b></td>
+  </tr>
+</table>
+
+<br> <table border="0">
+  <tr>
+    <td align="center"><img src="screenshots/screenshot3.jpeg" width="550"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Blocked Site (Study Mode)</b></td>
+  </tr>
+</table>
+
+---
+
 </div>
 
 ---
