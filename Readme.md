@@ -1,14 +1,47 @@
+<div align="center">
+
+<img src="RUTA_DE_TU_LOGO_AQUI.png" width="120" height="120" alt="Anti-Procrastination Logo">
+
 # Anti-Procrastination Extension
 
 This is a productivity tool for Google Chrome designed to combat distractions through a website blocking system and automated rewards.
 
-## Overview
+### [📥 Downloads (Latest Release)](https://github.com/EphEsWrath20/Anti-procrastination/releases/latest)
 
-The goal of this tool is to help users establish Deep Work periods. During these sessions, the extension restricts access to distracting websites and, upon completion, rewards the user by automatically opening a tab with their chosen content.
+---
 
-## Key Features
+</div>
 
-* **Flexible Timer**: Quickly set study sessions by adding 1-minute or 5-minute intervals.
-* **Content Blocking**: Filters access to forbidden URLs based on user-defined keywords.
-* **DOM Substitution**: If a blocked site is accessed, the content script stops the page load and replaces the body with a "Study Mode" warning.
-* **Reward System**: Once the session ends, the extension automatically opens a predefined URL (e.g., a music video or news portal).
+## 📖 Overview
+The goal of this tool is to help users establish **Deep Work** periods. During these sessions, the extension restricts access to distracting websites and, upon completion, rewards the user by automatically opening a tab with their chosen content.
+
+## ✨ Key Features
+* **Flexible Timer:** Quickly set study sessions by adding 1-minute or 5-minute intervals.
+* **Content Blocking:** Filters access to forbidden URLs based on user-defined keywords.
+* **DOM Substitution:** If a blocked site is accessed, the content script stops the page load and replaces the body with a "Study Mode" warning.
+* **Reward System:** Once the session ends, the extension automatically opens a predefined URL (e.g., a music video or news portal).
+
+## 📸 Screenshots
+<div align="center">
+  <table border="0">
+    <tr>
+      <td><img src="screenshots/screenshot1.jpg" width="250"></td>
+      <td><img src="screenshots/screenshot2.jng" width="250"></td>
+      <td><img src="screenshots/screenshot3.jng" width="250"></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Main Timer</b></td>
+      <td align="center"><b>Blocked Site View</b></td>
+      <td align="center"><b>Configuration</b></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 🚀 How to install
+1. Download the `.zip` from the [Downloads](https://github.com/EphEsWrath20/Anti-procrastination/releases/latest) section.
+2. Unzip the file.
+3. Open Chrome and go to `chrome://extensions/`.
+4. Enable **Developer mode**.
+5. Click **Load unpacked** and select the project folder.
